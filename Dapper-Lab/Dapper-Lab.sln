@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.ConsoleApp", "Dapper
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LabWorX", "LabWorX\LabWorX.sqlproj", "{D04C1146-BE85-4E44-A418-5C50FB6E4FB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{D917D7DE-92DA-499F-AAF8-388375041096}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{D04C1146-BE85-4E44-A418-5C50FB6E4FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D04C1146-BE85-4E44-A418-5C50FB6E4FB6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D04C1146-BE85-4E44-A418-5C50FB6E4FB6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D917D7DE-92DA-499F-AAF8-388375041096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D917D7DE-92DA-499F-AAF8-388375041096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D917D7DE-92DA-499F-AAF8-388375041096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D917D7DE-92DA-499F-AAF8-388375041096}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

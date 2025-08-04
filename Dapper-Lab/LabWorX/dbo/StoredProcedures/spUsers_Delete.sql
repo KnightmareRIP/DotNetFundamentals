@@ -1,9 +1,9 @@
 ﻿CREATE PROCEDURE [dbo].[spUsers_Delete]
-  @Id UNIQUEIDENTIFIER
+  @id UNIQUEIDENTIFIER
 AS
 Begin
 
 Delete from [dbo].[Users]
-  Where Id = @Id
+  Where Id = @id
 
 End
